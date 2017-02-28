@@ -1,0 +1,118 @@
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+
+nav ul{
+  text-align: center;
+  display: inline;
+  float:left;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  nav ul {
+    display:none;
+  }
+  .btn-primary {
+    display:none;
+  }
+}
+.nav .navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-10px;
+}
+
+.navbar-nav{
+  margin: 6px -15px;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+
+@media screen and (min-width: 640px){
+  .navbar-nav {
+    display:none;
+    visibility: hidden;
+  }
+}
+.navbar-collapse.in{
+  margin-top:43px;
+  margin-bottom: -7px;
+}
+
+#bs-example-navbar-collapse-1{
+  position:fixed;
+  z-index: 10;
+}
+div.fixed{
+  position: fixed;
+}
+img#logo-chaussettes{
+  padding-top:10px;
+  float:left;
+}
+
+.container{
+  height: 40px;
+}
+
+.btn-primary {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+}
+
+h1{
+  float:left;
+  font-size: 24px;
+  margin-left: 25px;
+  margin-top: 13px;
+}
+
+.product{
+  float: left;
+  border: solid 1px grey;
+  margin:10px;
+}
+
+div.row{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+a h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+#myCarousel{
+  margin-bottom: 10px;
+  margin-top:0;
+}
+
+footer{
+  background-color: #393737;
+  height:100px;
+  margin-top:10px;
+  color:white;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container{
+  height: 50px;
+}
+
+.clearfix{
+  overflow:auto;
+  zoom:1;
+}

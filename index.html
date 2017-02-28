@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wild chaussettes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css" media="all"/>
+  </head>
+  <body>
+
+<div class="container">
+  <!-- Nav -->
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+                <img src="img/logo.png" alt="" id="logo-chaussettes">
+                <h1>WILD CHAUSSETTES</h1>
+                <nav>
+                  <ul>
+                    <li><a href="#">Hommes</a></li>
+                    <li><a href="#">Femmes</a></li>
+                    <li><a href="#">Enfants</a></li>
+                  </ul>
+                </nav>
+    <button type="button" class="btn btn-primary">Panier</button>
+
+        <!-- Menu Hamburger - Collect the nav links, forms, and other content for toggling -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+              </div>
+
+            </nav>
+
+            <div class="collapse navbar-collapse fixed" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Mon panier</a></li>
+                  <li><a href="#">Hommes</a></li>
+                  <li><a href="#">Femmes</a></li>
+                  <li><a href="#">Enfants</a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+  <!-- SLIDER CAROUSEL -->
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="img/socks1.jpg" alt="Chaussettes1">
+        </div>
+
+        <div class="item">
+          <img src="img/socks2.jpg" alt="Chaussettes2">
+        </div>
+
+        <div class="item">
+          <img src="img/socks3.jpg" alt="Chaussettes3">
+        </div>
+
+        <div class="item">
+          <img src="img/socks4.jpg" alt="Chaussettes4">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+
+  <!-- Products -->
+
+    <div class="row">
+      <div class="product"><img src="img/products/sock1.jpg" alt="Chaussettes modèle 1" data-target="#socks1"><a href="#"><h2>Chaussettes 1</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock2.jpg" alt="Chaussettes modèle 2" data-toggle="modal" data-target="#socks3"><a href="#"><h2>Chaussettes 2</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock3.jpg" alt="Chaussettes modèle 3" data-toggle="modal" data-target="#socks3"><a href="#"><h2>Chaussettes 3</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock4.jpg" alt="Chaussettes modèle 4" data-toggle="modal" data-target="#socks3"><a href="#"><h2>Chaussettes 4</h2>
+          </a></img></div>
+    </div>
+
+
+    <div class="row">
+      <div class="product"><img src="img/products/sock5.jpg" alt="Chaussettes modèle 5" data-toggle="modal" data-target="#socks5"><a href="#"><h2>Chaussettes 5</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock6.jpg" alt="Chaussettes modèle 6" data-toggle="modal" data-target="#socks6"><a href="#"><h2>Chaussettes 6</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock7.jpg" alt="Chaussettes modèle 7" data-toggle="modal" data-target="#socks7"><a href="#"><h2>Chaussettes 7</h2>
+          </a></div>
+      <div class="product"><img src="img/products/sock8.jpg" alt="Chaussettes modèle 8" data-toggle="modal" data-target="#socks8"><a href="#"><h2>Chaussettes 8</h2>
+          </a></div>
+    </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="socks1" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 1</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/products/sock1.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks2" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 2</h4>
+          </div>
+          <div class="modal-body">
+            <img src="img/products/sock2.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks3" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 3</h4>
+          </div>
+          <div class="modal-body">
+          <img src="img/products/sock3.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks4" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 4</h4>
+          </div>
+          <div class="modal-body">
+            <img class="clearfix" src="img/products/sock4.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks5" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 5</h4>
+          </div>
+          <div class="modal-body">
+            <img class="clearfix" src="img/products/sock5.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks6" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 6</h4>
+          </div>
+          <div class="modal-body">
+            <img class="clearfix" src="img/products/sock6.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks7" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 7</h4>
+          </div>
+          <div class="modal-body">
+            <img class="clearfix" src="img/products/sock7.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="socks8" tabindex="-1" role="dialog" aria-labelledby="">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Chaussettes 8</h4>
+          </div>
+          <div class="modal-body">
+            <img class="clearfix" src="img/products/sock8.jpg">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <footer>
+    <p>
+      Ceci est mon footer
+    </p>
+  </footer>
+    <!-- Scripts , JS Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+      $('#myModal').modal(options)
+    </script>
+  </body>
+</html>
